@@ -1,0 +1,252 @@
+{
+	"info": {
+		"_postman_id": "72097b27-41f7-42e8-baf0-95eb6a617e9a",
+		"name": "InlockGames",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "UsuarioController",
+			"item": [
+				{
+					"name": "ListarUsuario",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Usuarios",
+							"host": [
+								"{{URL}}Usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CadastrarUsuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"Doufrao@gmail.com\",\r\n    \"senha\":\"123123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}Usuarios",
+							"host": [
+								"{{URL}}Usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarUsuarioPeloID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"Doufrinhas\",\r\n    \"senha\":\"123456789\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}Usuarios/2",
+							"host": [
+								"{{URL}}Usuarios"
+							],
+							"path": [
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletarUsuarioPeloID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Usuarios/2",
+							"host": [
+								"{{URL}}Usuarios"
+							],
+							"path": [
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarUsuatioComTipo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Usuarios/BuscarPorTipoUsuario",
+							"host": [
+								"{{URL}}Usuarios"
+							],
+							"path": [
+								"BuscarPorTipoUsuario"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "EstudioController",
+			"item": [
+				{
+					"name": "ListarEstudio",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}Estudios",
+							"host": [
+								"{{URL}}Estudios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AdicionarEstudio",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomeEstudio\":\"Kojima Productions\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}Estudios",
+							"host": [
+								"{{URL}}Estudios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarComJogos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Estudios/ListarComJogo",
+							"host": [
+								"{{URL}}Estudios"
+							],
+							"path": [
+								"ListarComJogo"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "JogoController",
+			"item": [
+				{
+					"name": "ListarJogo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Jogos",
+							"host": [
+								"{{URL}}Jogos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AdicionarJogo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tituloJogo\":\"Silent Hill\",\r\n    \"Descricao\":\"Silent Hill é uma série de jogos eletrônicos produzida pela Konami. É classificada como um survival horror.\",\r\n    \"dataLan\":\"1999/01/31\",\r\n    \"valor\":\"30\",\r\n    \"idEstudio\":9\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}Jogos",
+							"host": [
+								"{{URL}}Jogos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarComEstudio",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Jogos/ListarComEstudio",
+							"host": [
+								"{{URL}}Jogos"
+							],
+							"path": [
+								"ListarComEstudio"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"variable": [
+		{
+			"id": "675e65ea-7240-46e2-b342-59f3f53061ea",
+			"key": "URL",
+			"value": "localhost:5000/api/"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

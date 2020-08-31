@@ -1,0 +1,324 @@
+{
+	"info": {
+		"_postman_id": "f4564dc9-aa6e-4a70-b818-1631eb01dbb6",
+		"name": "Peoples",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "UsuarioController",
+			"item": [
+				{
+					"name": "ListarUsuarios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Usuarios",
+							"host": [
+								"{{URL}}Usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarPorID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Usuarios/1",
+							"host": [
+								"{{URL}}Usuarios"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletarPorID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Usuarios/3",
+							"host": [
+								"{{URL}}Usuarios"
+							],
+							"path": [
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CadastrarUsuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{   \r\n        \"email\": \"tadeu@email.com\",\r\n        \"senha\": \"tadeu123\"      \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}Usuarios",
+							"host": [
+								"{{URL}}Usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarPorID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"doug@douglao\",\r\n    \"senha\":\"123123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}Usuarios/4",
+							"host": [
+								"{{URL}}Usuarios"
+							],
+							"path": [
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "TipoUsuarioController",
+			"item": [
+				{
+					"name": "ListarTipoUsuario",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}TipoUsuarios",
+							"host": [
+								"{{URL}}TipoUsuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarPorID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}TipoUsuarios/1",
+							"host": [
+								"{{URL}}TipoUsuarios"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletarPorID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}TipoUsuarios/1",
+							"host": [
+								"{{URL}}TipoUsuarios"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarPorID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\":\"Admnistrador\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}TipoUsuarios/1",
+							"host": [
+								"{{URL}}TipoUsuarios"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "FuncionarioController",
+			"item": [
+				{
+					"name": "ListarTodosFuncionarios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Funcionarios",
+							"host": [
+								"{{URL}}Funcionarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarPorNome",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Funcionarios/BuscarPorNome/Catarina",
+							"host": [
+								"{{URL}}Funcionarios"
+							],
+							"path": [
+								"BuscarPorNome",
+								"Catarina"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletarPorID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Funcionarios/1",
+							"host": [
+								"{{URL}}Funcionarios"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarPorID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\":\"doufras\",\r\n    \"sobrenome\":\"eletricista\",\r\n    \"dataNascimento\":\"2001/10/20\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}Funcionarios/1",
+							"host": [
+								"{{URL}}Funcionarios"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarPorID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Funcionarios/1",
+							"host": [
+								"{{URL}}Funcionarios"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CadastarFuncionario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\":\"doufrinhas\",\r\n    \"sobrenome\":\"monster\",\r\n    \"datanascimento\":\"2005/08/12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}Funcionarios/",
+							"host": [
+								"{{URL}}Funcionarios"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"variable": [
+		{
+			"id": "e30b3f91-e6ba-4c6e-add8-b4d8b09d149f",
+			"key": "URL",
+			"value": "localhost:5000/api/"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

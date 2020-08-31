@@ -1,0 +1,14 @@
+C:\Users\senai\Desktop\InlockGames\InlockGamesWebAPI\InlockGamesWebAPI\bin\Debug\netcoreapp2.1\InlockGamesWebAPI.deps.json
+C:\Users\senai\Desktop\InlockGames\InlockGamesWebAPI\InlockGamesWebAPI\bin\Debug\netcoreapp2.1\InlockGamesWebAPI.runtimeconfig.json
+C:\Users\senai\Desktop\InlockGames\InlockGamesWebAPI\InlockGamesWebAPI\bin\Debug\netcoreapp2.1\InlockGamesWebAPI.runtimeconfig.dev.json
+C:\Users\senai\Desktop\InlockGames\InlockGamesWebAPI\InlockGamesWebAPI\bin\Debug\netcoreapp2.1\InlockGamesWebAPI.dll
+C:\Users\senai\Desktop\InlockGames\InlockGamesWebAPI\InlockGamesWebAPI\bin\Debug\netcoreapp2.1\InlockGamesWebAPI.pdb
+C:\Users\senai\Desktop\InlockGames\InlockGamesWebAPI\InlockGamesWebAPI\obj\Debug\netcoreapp2.1\InlockGamesWebAPI.csprojAssemblyReference.cache
+C:\Users\senai\Desktop\InlockGames\InlockGamesWebAPI\InlockGamesWebAPI\obj\Debug\netcoreapp2.1\InlockGamesWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\senai\Desktop\InlockGames\InlockGamesWebAPI\InlockGamesWebAPI\obj\Debug\netcoreapp2.1\InlockGamesWebAPI.RazorAssemblyInfo.cache
+C:\Users\senai\Desktop\InlockGames\InlockGamesWebAPI\InlockGamesWebAPI\obj\Debug\netcoreapp2.1\InlockGamesWebAPI.RazorAssemblyInfo.cs
+C:\Users\senai\Desktop\InlockGames\InlockGamesWebAPI\InlockGamesWebAPI\obj\Debug\netcoreapp2.1\InlockGamesWebAPI.AssemblyInfoInputs.cache
+C:\Users\senai\Desktop\InlockGames\InlockGamesWebAPI\InlockGamesWebAPI\obj\Debug\netcoreapp2.1\InlockGamesWebAPI.AssemblyInfo.cs
+C:\Users\senai\Desktop\InlockGames\InlockGamesWebAPI\InlockGamesWebAPI\obj\Debug\netcoreapp2.1\InlockGamesWebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\senai\Desktop\InlockGames\InlockGamesWebAPI\InlockGamesWebAPI\obj\Debug\netcoreapp2.1\InlockGamesWebAPI.dll
+C:\Users\senai\Desktop\InlockGames\InlockGamesWebAPI\InlockGamesWebAPI\obj\Debug\netcoreapp2.1\InlockGamesWebAPI.pdb

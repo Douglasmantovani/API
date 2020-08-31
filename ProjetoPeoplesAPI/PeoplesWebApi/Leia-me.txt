@@ -1,0 +1,3 @@
+Incompleto;Falta a implementaçao de tokens para restriçao e proteçao de API e alguns metodos
+
+Atualizaçao em breve

@@ -1,0 +1,14 @@
+C:\Users\senai\Desktop\PeoplesWebApi\PeoplesWebApi\PeoplesWebApi\bin\Debug\netcoreapp2.1\PeoplesWebApi.deps.json
+C:\Users\senai\Desktop\PeoplesWebApi\PeoplesWebApi\PeoplesWebApi\bin\Debug\netcoreapp2.1\PeoplesWebApi.runtimeconfig.json
+C:\Users\senai\Desktop\PeoplesWebApi\PeoplesWebApi\PeoplesWebApi\bin\Debug\netcoreapp2.1\PeoplesWebApi.runtimeconfig.dev.json
+C:\Users\senai\Desktop\PeoplesWebApi\PeoplesWebApi\PeoplesWebApi\bin\Debug\netcoreapp2.1\PeoplesWebApi.dll
+C:\Users\senai\Desktop\PeoplesWebApi\PeoplesWebApi\PeoplesWebApi\obj\Debug\netcoreapp2.1\PeoplesWebApi.csprojAssemblyReference.cache
+C:\Users\senai\Desktop\PeoplesWebApi\PeoplesWebApi\PeoplesWebApi\obj\Debug\netcoreapp2.1\PeoplesWebApi.csproj.CoreCompileInputs.cache
+C:\Users\senai\Desktop\PeoplesWebApi\PeoplesWebApi\PeoplesWebApi\obj\Debug\netcoreapp2.1\PeoplesWebApi.RazorAssemblyInfo.cache
+C:\Users\senai\Desktop\PeoplesWebApi\PeoplesWebApi\PeoplesWebApi\obj\Debug\netcoreapp2.1\PeoplesWebApi.RazorAssemblyInfo.cs
+C:\Users\senai\Desktop\PeoplesWebApi\PeoplesWebApi\PeoplesWebApi\obj\Debug\netcoreapp2.1\PeoplesWebApi.AssemblyInfoInputs.cache
+C:\Users\senai\Desktop\PeoplesWebApi\PeoplesWebApi\PeoplesWebApi\obj\Debug\netcoreapp2.1\PeoplesWebApi.AssemblyInfo.cs
+C:\Users\senai\Desktop\PeoplesWebApi\PeoplesWebApi\PeoplesWebApi\obj\Debug\netcoreapp2.1\PeoplesWebApi.RazorTargetAssemblyInfo.cache
+C:\Users\senai\Desktop\PeoplesWebApi\PeoplesWebApi\PeoplesWebApi\bin\Debug\netcoreapp2.1\PeoplesWebApi.pdb
+C:\Users\senai\Desktop\PeoplesWebApi\PeoplesWebApi\PeoplesWebApi\obj\Debug\netcoreapp2.1\PeoplesWebApi.dll
+C:\Users\senai\Desktop\PeoplesWebApi\PeoplesWebApi\PeoplesWebApi\obj\Debug\netcoreapp2.1\PeoplesWebApi.pdb
