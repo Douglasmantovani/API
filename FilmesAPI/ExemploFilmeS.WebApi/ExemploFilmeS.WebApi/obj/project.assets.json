@@ -8630,11 +8630,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\49446034876\\source\\repos\\ExemploFilmeS.WebApi\\ExemploFilmeS.WebApi\\ExemploFilmeS.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\49446034876\\Desktop\\API\\FilmesAPI\\ExemploFilmeS.WebApi\\ExemploFilmeS.WebApi\\ExemploFilmeS.WebApi.csproj",
       "projectName": "ExemploFilmeS.WebApi",
-      "projectPath": "C:\\Users\\49446034876\\source\\repos\\ExemploFilmeS.WebApi\\ExemploFilmeS.WebApi\\ExemploFilmeS.WebApi.csproj",
+      "projectPath": "C:\\Users\\49446034876\\Desktop\\API\\FilmesAPI\\ExemploFilmeS.WebApi\\ExemploFilmeS.WebApi\\ExemploFilmeS.WebApi.csproj",
       "packagesPath": "C:\\Users\\49446034876\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\49446034876\\source\\repos\\ExemploFilmeS.WebApi\\ExemploFilmeS.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\49446034876\\Desktop\\API\\FilmesAPI\\ExemploFilmeS.WebApi\\ExemploFilmeS.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\49446034876\\AppData\\Roaming\\NuGet\\NuGet.Config",
