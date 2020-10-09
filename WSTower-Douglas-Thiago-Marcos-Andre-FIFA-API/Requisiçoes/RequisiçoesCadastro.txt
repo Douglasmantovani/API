@@ -1,0 +1,1 @@
+Post--http://localhost:5000/api/Cadastro ---Cadastra o usuario passando um email,senha,apelido,nome

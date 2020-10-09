@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "08709ed9-7740-448a-9b7d-4844a5ae699b",
+		"name": "WSTowers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Selecao",
+			"item": [
+				{
+					"name": "GET ",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/selecoes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"selecoes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GETByID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

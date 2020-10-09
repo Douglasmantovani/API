@@ -1,0 +1,3 @@
+Put--http://localhost:5000/api/Login/1 --Muda a senha atraves do id,passando uma ViewModel{email,apelido,senha}
+
+Post--http://localhost:5000/api/Login --um usuario{apelido ou email e senha(cadastrados)}Devolve um usuario e uma mensagem de bem vindo com o apelido do usuario 

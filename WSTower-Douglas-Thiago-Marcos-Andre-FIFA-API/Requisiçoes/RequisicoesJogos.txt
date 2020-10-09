@@ -1,0 +1,12 @@
+Get--http://localhost:5000/api/Jogos ---Lista todos os jogos
+
+Post--http://localhost:5000/api/Jogos --Cadastra um jogo passando um objeto preenchido
+
+Put--http://localhost:5000/api/Jogos ---atualiza um jogo passando o id na url e o objeto no corpo
+
+Get--http://localhost:5000/api/Jogos/DataJogo/2020-05-10 --- Busca um jogo passando a data(em formato americano)na url
+
+Get--http://localhost:5000/api/Jogos/NomeEstadio/Maracanã ---Busca um estadio passando o nome na url
+
+Get--http://localhost:5000/api/Jogos/Selecao/Brasil --Busca uma selecao passando o nome na url
+

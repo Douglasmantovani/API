@@ -1,0 +1,14 @@
+C:\Users\senai\Desktop\WSTowerApi\WSTower\WSTower\bin\Debug\netcoreapp2.1\WSTower.deps.json
+C:\Users\senai\Desktop\WSTowerApi\WSTower\WSTower\bin\Debug\netcoreapp2.1\WSTower.runtimeconfig.json
+C:\Users\senai\Desktop\WSTowerApi\WSTower\WSTower\bin\Debug\netcoreapp2.1\WSTower.runtimeconfig.dev.json
+C:\Users\senai\Desktop\WSTowerApi\WSTower\WSTower\bin\Debug\netcoreapp2.1\WSTower.dll
+C:\Users\senai\Desktop\WSTowerApi\WSTower\WSTower\bin\Debug\netcoreapp2.1\WSTower.pdb
+C:\Users\senai\Desktop\WSTowerApi\WSTower\WSTower\obj\Debug\netcoreapp2.1\WSTower.csprojAssemblyReference.cache
+C:\Users\senai\Desktop\WSTowerApi\WSTower\WSTower\obj\Debug\netcoreapp2.1\WSTower.csproj.CoreCompileInputs.cache
+C:\Users\senai\Desktop\WSTowerApi\WSTower\WSTower\obj\Debug\netcoreapp2.1\WSTower.RazorAssemblyInfo.cache
+C:\Users\senai\Desktop\WSTowerApi\WSTower\WSTower\obj\Debug\netcoreapp2.1\WSTower.RazorAssemblyInfo.cs
+C:\Users\senai\Desktop\WSTowerApi\WSTower\WSTower\obj\Debug\netcoreapp2.1\WSTower.AssemblyInfoInputs.cache
+C:\Users\senai\Desktop\WSTowerApi\WSTower\WSTower\obj\Debug\netcoreapp2.1\WSTower.AssemblyInfo.cs
+C:\Users\senai\Desktop\WSTowerApi\WSTower\WSTower\obj\Debug\netcoreapp2.1\WSTower.RazorTargetAssemblyInfo.cache
+C:\Users\senai\Desktop\WSTowerApi\WSTower\WSTower\obj\Debug\netcoreapp2.1\WSTower.dll
+C:\Users\senai\Desktop\WSTowerApi\WSTower\WSTower\obj\Debug\netcoreapp2.1\WSTower.pdb

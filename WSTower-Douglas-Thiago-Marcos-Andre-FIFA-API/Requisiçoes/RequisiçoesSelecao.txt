@@ -1,0 +1,5 @@
+Get--http://localhost:5000/api/Selecoes/ListarTodosJogadorConfronto ---Lista Seleçoes+Jogador+confrontos
+
+Get--http://localhost:5000/api/Selecoes/ListarTodosSelecoes  ---Lista todas as seleçoes apenas
+
+Get--http://localhost:5000/api/Selecoes/ListarTodosSelecoes --Lista todas as seleçoes com seus jogadores apenas

@@ -1,0 +1,376 @@
+{
+	"info": {
+		"_postman_id": "64f2dedf-b874-453b-90fe-8eeac0a499ce",
+		"name": "WSTower",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "JogosController",
+			"item": [
+				{
+					"name": "ListarJogos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Jogos",
+							"host": [
+								"{{URL}}Jogos"
+							]
+						},
+						"description": "Lista todos os jogos\r\n"
+					},
+					"response": []
+				},
+				{
+					"name": "CadastraJogo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"selecaocasas\":\"3\",\r\n    \"selecaovisitante\":\"4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}Jogos",
+							"host": [
+								"{{URL}}Jogos"
+							]
+						},
+						"description": "Cadastra um jogo passando um objeto preenchido"
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarPorId",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"selecaocasa\":\"3\",\r\n    \"selecaovisitante\":\"4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}Jogos/2",
+							"host": [
+								"{{URL}}Jogos"
+							],
+							"path": [
+								"2"
+							]
+						},
+						"description": "atualiza um jogo passando o id na url e o objeto no corpo"
+					},
+					"response": []
+				},
+				{
+					"name": "PegarPorData",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Jogos/DataJogo/2020-05-10",
+							"host": [
+								"{{URL}}Jogos"
+							],
+							"path": [
+								"DataJogo",
+								"2020-05-10"
+							]
+						},
+						"description": "Busca um jogo passando a data(em formato americano)na url"
+					},
+					"response": []
+				},
+				{
+					"name": "PegarPeloNomeDoEstadio",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Jogos/NomeEstadio/Maracanã",
+							"host": [
+								"{{URL}}Jogos"
+							],
+							"path": [
+								"NomeEstadio",
+								"Maracanã"
+							]
+						},
+						"description": "Busca um estadio passando o nome na url"
+					},
+					"response": []
+				},
+				{
+					"name": "PegarPeloNomeDaSelecao",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Jogos/Selecao/Brasil",
+							"host": [
+								"{{URL}}Jogos"
+							],
+							"path": [
+								"Selecao",
+								"Brasil"
+							]
+						},
+						"description": "Busca uma selecao passando o nome na url"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "UsuarioController",
+			"item": [
+				{
+					"name": "ListarUsuario",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Usuarios",
+							"host": [
+								"{{URL}}Usuarios"
+							]
+						},
+						"description": "Lista todos os usuarios"
+					},
+					"response": []
+				},
+				{
+					"name": "AlteraPropriedadesdoUsuario",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{       \r\n        \"nome\": \"Douglas\",\r\n        \"email\": \"dougras@email.com\"\r\n        \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}Usuarios/3",
+							"host": [
+								"{{URL}}Usuarios"
+							],
+							"path": [
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "CadastroController",
+			"item": [
+				{
+					"name": "CadastraUsuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"nome\": \"Mantoavni\",\r\n        \"email\": \"Mantovani@email.com\",\r\n        \"apelido\": \"Doug\",\r\n        \"senha\": \"123123\"\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}Cadastro",
+							"host": [
+								"{{URL}}Cadastro"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "SelecaoController",
+			"item": [
+				{
+					"name": "ListarTodasSelecoes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Selecoes/ListarTodosSelecoes",
+							"host": [
+								"{{URL}}Selecoes"
+							],
+							"path": [
+								"ListarTodosSelecoes"
+							]
+						},
+						"description": "Lista Todas as selecoes apenas"
+					},
+					"response": []
+				},
+				{
+					"name": "ListarSelecaoJogador",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Selecoes/ListarTodosJogador",
+							"host": [
+								"{{URL}}Selecoes"
+							],
+							"path": [
+								"ListarTodosJogador"
+							]
+						},
+						"description": "Lista todas as seleçoes com seus respectivos jogadores"
+					},
+					"response": []
+				},
+				{
+					"name": "ListarSelecaoJogadorConfronto",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Selecoes/ListarTodosJogadorConfronto",
+							"host": [
+								"{{URL}}Selecoes"
+							],
+							"path": [
+								"ListarTodosJogadorConfronto"
+							]
+						},
+						"description": "Lista seleçao+ jogador + confrontos"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "LoginController",
+			"item": [
+				{
+					"name": "FazLoginUsuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"apelido\":\"Doug\",\r\n    \"Senha\":\"123456789\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}Login",
+							"host": [
+								"{{URL}}Login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AlteraSenhaPeloId",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"senha\":\"123123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}Login/1",
+							"host": [
+								"{{URL}}Login"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "JogadorController",
+			"item": [
+				{
+					"name": "ListarJogador",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Jogador",
+							"host": [
+								"{{URL}}Jogador"
+							]
+						},
+						"description": "Lista Todos os jogadores"
+					},
+					"response": []
+				},
+				{
+					"name": "ListarPorNome",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}Jogador/Neymar",
+							"host": [
+								"{{URL}}Jogador"
+							],
+							"path": [
+								"Neymar"
+							]
+						},
+						"description": "Lista Todos os jogadores por nome "
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"variable": [
+		{
+			"id": "1076b592-7e6a-4caf-9ba5-27274cc08b23",
+			"key": "URL",
+			"value": "http://localhost:5000/api/"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

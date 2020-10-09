@@ -1,0 +1,4 @@
+Get--http://localhost:5000/api/Usuario --Lista todos os usuarios
+
+
+Put--http://localhost:5000/api/Usuarios/1   -- Altera as propriedades de um usuario passando o id na url
